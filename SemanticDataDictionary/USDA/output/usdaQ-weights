@@ -1,0 +1,254 @@
+prefix np: <http://www.nanopub.org/nschema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix uo: <http://purl.obolibrary.org/obo/UO_> 
+prefix hasco: <http://hadatac.org/ont/hasco#> 
+prefix heals: <http://idea.rpi.edu/heals/ont/heals#> 
+prefix heals-kb: <http://idea.rpi.edu/heals/kb/heals#> 
+prefix nhanes-kb: <http://idea.rpi.edu/heals/kb/nhanes#> 
+prefix gdc-kb: <http://idea.rpi.edu/heals/kb/gdc#> 
+prefix seer-kb: <http://idea.rpi.edu/heals/kb/seer#> 
+prefix chear: <http://hadatac.org/ont/chear#> 
+prefix chear-kb: <http://hadatac.org/kb/chear#> 
+prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> 
+prefix sio: <http://semanticscience.org/resource/> 
+prefix envo: <http://purl.obolibrary.org/obo/ENVO_> 
+prefix chebi: <http://purl.obolibrary.org/obo/CHEBI_> 
+prefix hp: <http://purl.obolibrary.org/obo/HP_> 
+prefix oae: <http://purl.obolibrary.org/obo/OAE_> 
+prefix ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> 
+prefix obo: <http://purl.obolibrary.org/obo/> 
+prefix pubchem: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> 
+prefix doid: <http://purl.obolibrary.org/obo/DOID_> 
+prefix pr: <http://purl.obolibrary.org/obo/PR_> 
+prefix ogg: <http://purl.obolibrary.org/obo/OGG_> 
+prefix go: <http://purl.obolibrary.org/obo/GO_> 
+prefix stato: <http://purl.obolibrary.org/obo/STATO_> 
+prefix snomed-ct: <http://purl.bioontology.org/ontology/SNOMEDCT/> 
+prefix loinc: <http://purl.bioontology.org/ontology/LNC/> 
+prefix rxnorm: <http://purl.bioontology.org/ontology/RXNORM/> 
+prefix efo: <http://www.ebi.ac.uk/efo/EFO_> 
+prefix synthea: <http://idea.rpi.edu/ont/synthea#> 
+prefix synthea-kb: <http://idea.rpi.edu/kb/synthea#> 
+prefix dbr: <http://dbpedia.org/resource/> 
+prefix usda-kb: <http://idea.rpi.edu/heals/kb/usda#> 
+prefix foodon: <http://purl.obolibrary.org/obo/foodon.owl> 
+prefix schema: <http://schema.org/> 
+
+SELECT DISTINCT ?id ?msre_desc_1 ?msre_desc_2 ?msre_desc_3 ?msre_desc_4 ?msre_desc_5 ?msre_desc_6 ?msre_desc_7 ?msre_desc_8 ?msre_desc_9 ?msre_desc_10 ?msre_desc_11 ?msre_desc_12 ?msre_desc_13 ?msre_desc_14 ?msre_desc_15 ?msre_desc_16 ?amount_1 ?amount_2 ?amount_3 ?amount_4 ?amount_5 ?amount_6 ?amount_7 ?amount_8 ?amount_9 ?amount_10 ?amount_11 ?amount_12 ?amount_13 ?amount_14 ?amount_15 ?amount_16 ?gm_wgt_1 ?gm_wgt_2 ?gm_wgt_3 ?gm_wgt_4 ?gm_wgt_5 ?gm_wgt_6 ?gm_wgt_7 ?gm_wgt_8 ?gm_wgt_9 ?gm_wgt_10 ?gm_wgt_11 ?gm_wgt_12 ?gm_wgt_13 ?gm_wgt_14 ?gm_wgt_15 ?gm_wgt_16 WHERE {
+  ?id_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Identifier  ;
+    <http://semanticscience.org/resource/hasValue> ?id .
+
+  ?msre_desc_1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_1 .
+
+  ?msre_desc_2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_2 .
+
+  ?msre_desc_3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_3 .
+
+  ?msre_desc_4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_4 .
+
+  ?msre_desc_5_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_5 .
+
+  ?msre_desc_6_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_6 .
+
+  ?msre_desc_7_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_7 .
+
+  ?msre_desc_8_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_8 .
+
+  ?msre_desc_9_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_9 .
+
+  ?msre_desc_10_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_10 .
+
+  ?msre_desc_11_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_11 .
+
+  ?msre_desc_12_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_12 .
+
+  ?msre_desc_13_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_13 .
+
+  ?msre_desc_14_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_14 .
+
+  ?msre_desc_15_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_15 .
+
+  ?msre_desc_16_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?msre_desc_16 .
+
+  ?amount_1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_1 .
+
+  ?amount_2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_2 .
+
+  ?amount_3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_3 .
+
+  ?amount_4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_4 .
+
+  ?amount_5_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_5 .
+
+  ?amount_6_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_6 .
+
+  ?amount_7_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_7 .
+
+  ?amount_8_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_8 .
+
+  ?amount_9_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_9 .
+
+  ?amount_10_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_10 .
+
+  ?amount_11_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_11 .
+
+  ?amount_12_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_12 .
+
+  ?amount_13_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_13 .
+
+  ?amount_14_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_14 .
+
+  ?amount_15_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_15 .
+
+  ?amount_16_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasValue> ?amount_16 .
+
+  ?gm_wgt_1_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_1 .
+
+  ?gm_wgt_2_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_2 .
+
+  ?gm_wgt_3_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_3 .
+
+  ?gm_wgt_4_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_4 .
+
+  ?gm_wgt_5_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_5 .
+
+  ?gm_wgt_6_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_6 .
+
+  ?gm_wgt_7_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_7 .
+
+  ?gm_wgt_8_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_8 .
+
+  ?gm_wgt_9_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_9 .
+
+  ?gm_wgt_10_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_10 .
+
+  ?gm_wgt_11_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_11 .
+
+  ?gm_wgt_12_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_12 .
+
+  ?gm_wgt_13_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_13 .
+
+  ?gm_wgt_14_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_14 .
+
+  ?gm_wgt_15_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_15 .
+
+  ?gm_wgt_16_E <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> sio:Attribute  ;
+    <http://semanticscience.org/resource/isAttributeOf>    ?id_E ;
+    <http://semanticscience.org/resource/hasUnit>    dbr:Gram,uo:0000021 ;
+    <http://semanticscience.org/resource/hasValue> ?gm_wgt_16 .
+
+
+}

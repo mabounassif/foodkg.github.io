@@ -1,0 +1,11 @@
+id,Msre_Desc_1,Msre_Desc_2,Msre_Desc_3,Msre_Desc_4,Msre_Desc_5,Msre_Desc_6,Msre_Desc_7,Msre_Desc_8,Msre_Desc_9,Msre_Desc_10,Msre_Desc_11,Msre_Desc_12,Msre_Desc_13,Msre_Desc_14,Msre_Desc_15,Msre_Desc_16,Amount_1,Amount_2,Amount_3,Amount_4,Amount_5,Amount_6,Amount_7,Amount_8,Amount_9,Amount_10,Amount_11,Amount_12,Amount_13,Amount_14,Amount_15,Amount_16,Gm_Wgt_1,Gm_Wgt_2,Gm_Wgt_3,Gm_Wgt_4,Gm_Wgt_5,Gm_Wgt_6,Gm_Wgt_7,Gm_Wgt_8,Gm_Wgt_9,Gm_Wgt_10,Gm_Wgt_11,Gm_Wgt_12,Gm_Wgt_13,Gm_Wgt_14,Gm_Wgt_15,Gm_Wgt_16
+1001,"pat (1"" sq, 1/3"" high)",tbsp,cup,stick,,,,,,,,,,,,,1.0,1.0,1.0,1.0,,,,,,,,,,,,,5.0,14.2,227.0,113.0,,,,,,,,,,,,
+1002,"pat (1"" sq, 1/3"" high)",tbsp,cup,stick,,,,,,,,,,,,,1.0,1.0,1.0,1.0,,,,,,,,,,,,,3.8,9.4,151.0,76.0,,,,,,,,,,,,
+1003,tbsp,cup,,,,,,,,,,,,,,,1.0,1.0,,,,,,,,,,,,,,,12.8,205.0,,,,,,,,,,,,,,
+1004,oz,cubic inch,"cup, crumbled, not packed",,,,,,,,,,,,,,1.0,1.0,1.0,,,,,,,,,,,,,,28.35,17.0,135.0,,,,,,,,,,,,,
+1005,"cup, diced","cup, shredded",oz,cubic inch,slice (1 oz),,,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,,132.0,113.0,28.35,17.0,28.0,,,,,,,,,,,
+1006,oz,"cup, sliced","cup, melted",cubic inch,package (4.5 oz),,,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,,28.35,144.0,240.0,17.0,128.0,,,,,,,,,,,
+1007,oz,cup,cubic inch,wedge (1.33 oz),,,,,,,,,,,,,1.0,1.0,1.0,1.0,,,,,,,,,,,,,28.35,246.0,17.0,38.0,,,,,,,,,,,,
+1008,oz,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,28.35,,,,,,,,,,,,,,,
+1009,"cup, diced","cup, melted","cup, shredded",oz,cubic inch,slice (1 oz),,,,,,,,,,,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,,,,,132.0,244.0,113.0,28.35,17.0,28.0,,,,,,,,,,
+1010,oz,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,28.35,,,,,,,,,,,,,,,
